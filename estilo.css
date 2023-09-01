@@ -1,0 +1,44 @@
+body{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color:darkturquoise;
+    min-height: 80vh;
+}
+.cont{
+    background-color: rgba(0,0,0, 0.7);
+    padding: 3rem 4rem;
+    width: 300px;
+}
+.cont h1{
+    text-align: center;
+    color: white;
+    position: relative;
+    bottom: 50px;
+}
+.btns{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.btn01 button{
+    padding: 10px;
+    background-color: transparent;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.btn02 button{
+    padding: 10px;
+    background-color: transparent;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.btn03 button{
+    padding: 10px;
+    background-color: transparent;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
